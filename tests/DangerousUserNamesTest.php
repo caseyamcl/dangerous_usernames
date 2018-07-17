@@ -1,4 +1,17 @@
 <?php
+/**
+ * Dangerous Usernames
+ *
+ * @license http://opensource.org/licenses/MIT
+ * @link https://github.com/caseyamcl/dangerous_usernames
+ * @package caseyamcl/dangerous_usernames
+ * @author Casey McLaughlin <caseyamcl@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE.md
+ * file that was distributed with this source code.
+ *
+ * ------------------------------------------------------------------
+ */
 
 use DangerousUserNames\DangerousUserNames;
 use PHPUnit\Framework\TestCase;
