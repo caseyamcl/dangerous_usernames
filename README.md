@@ -22,7 +22,7 @@ Or, use whatever programming language you want to open the textfile and read the
 ## Usage
 
 ``` php
-use DangerousUsernames;
+use DangerousUsernames\DangerousUsernames;
 
 // string[]
 $dangerousNames = DangerousUsernames::list();
