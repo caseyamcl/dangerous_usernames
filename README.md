@@ -6,7 +6,7 @@
 
 This is simply a list dangerous usernames that you can include in your project.   It was inspired by [this article](https://www.b-list.org/weblog/2018/feb/11/usernames/).
 
-It comes with a `composer.json` file and `DangerousUsernames` class for easy inclusion in PHP projects. 
+It comes with a `composer.json` file and `DangerousUserNames` class for easy inclusion in PHP projects. 
 But, since it is simply a _txt_ file, you can use it with any platform.
 
 ## Install
@@ -22,16 +22,17 @@ Or, use whatever programming language you want to open the textfile and read the
 ## Usage
 
 ``` php
-use DangerousUsernames\DangerousUsernames;
+use DangerousUserNames\DangerousUserNames;
 
 // string[]
-$dangerousNames = DangerousUsernames::list();
-
+$dangerousNames = new DangerousUserNames();
+$dangerousNames->inList('admin');       // case-insensitive
+$dangerousNames->inList('ADMIN', true); // case-sensitive
 ```
 
 ## Contributing
 
-Pull requests are welcome!  If you have any dangerous usernames to add, please do so in alphabetical order.
+Pull requests are welcome!  If you have any user names to add, please do so in alphabetical order.
 
 ## Credits
 

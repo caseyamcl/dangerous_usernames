@@ -1,8 +1,8 @@
 <?php
 
-namespace DangerousUsernames;
+namespace DangerousUserNames;
 
-class DangerousUsernames extends \ArrayObject
+class DangerousUserNames extends \ArrayObject
 {
     /**
      * Dangerous Usernames Constructor
