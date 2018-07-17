@@ -1,0 +1,41 @@
+{
+    "name": "caseyamcl/dangerous_usernames",
+    "type": "library",
+    "description": "A list of dangerous usernames",
+    "keywords": [
+        "caseyamcl",
+        "dangerous_usernames",
+        "security",
+        "authentication",
+        "seclist",
+        "dangerous",
+        "usernames",
+        "blacklist"
+    ],
+    "homepage": "https://github.com/caseyamcl/dangerous_usernames",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Casey McLaughlin",
+            "email": "caseyamcl@gmail.com",
+            "homepage": "https://caseymclaughlin.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "^5.3|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DangerousUsernames\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
